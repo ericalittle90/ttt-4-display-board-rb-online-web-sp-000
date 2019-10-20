@@ -164,7 +164,7 @@ describe "#display_board in 'lib/display_board.rb" do
         expect(rows[3]).to eq("-----------")
         expect(rows[4]).to eq(" O | O | O ")
         output = capture_puts{ display_board(board) } if defined?(display_board)
-        rows = output.split("\n") 
+        rows = output.split("\n")
       expect(true).to be(true)
     end
   end
